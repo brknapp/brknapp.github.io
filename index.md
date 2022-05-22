@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+A Little Bit About Me: I graduated with a B.S. from NC State University in 2020 and I’m excited to be in the Applied Statistics and Data Management Certificate program. I am currently an ORISE research intern at the U.S. Environmental Protection Agency. I test chemicals for possible developmental neurotoxicity using a developmental zebrafish model. I am also using R to analyze and visualize cell-based in vitro data, zebrafish developmental toxicity data, transcriptomic data, and literature mining data to identify the mechanisms of chemicals with selective toxicity, or chemicals that produce developmental effects at concentrations lower than where cell stress is produced.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This blog is a part of the Data Science for Statisticians (ST 558) course at NC State (10-week summer session 2022).
