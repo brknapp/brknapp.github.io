@@ -8,8 +8,6 @@
 
 ![me](linked_in_pic.jfif)
 
-Here's my [LinkedIn profile](www.linkedin.com/in/bridget-knapp-14582a195).
-
 Fun facts about me:
 
 1. I'm a huge fan of theater
