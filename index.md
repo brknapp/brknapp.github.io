@@ -17,4 +17,4 @@ Fun facts about me:
 2. I play the clarinet in the [Durham Community Concert Band](http://www.durhamband.org/)
 3. I love my dog Henry! He's a four-year-old australian cattle dog mix
 
-
+This is a blog for ST 558, a ten-week summer course. I will be discussing data science, data manipulation, R programming, and machine learning.
