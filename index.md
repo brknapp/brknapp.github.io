@@ -6,7 +6,9 @@
   + I test chemicals for possible developmental neurotoxicity using a developmental zebrafish model
   + I am also using R to analyze and visualize cell-based in vitro data, zebrafish developmental toxicity data, transcriptomic data, and literature mining data to identify the mechanisms of chemicals with selective toxicity, or chemicals that produce developmental effects at concentrations lower than where cell stress is produced.
 
-linked_in_pic.jfif
+
+
+![me](linked_in_pic.jfif)
   
 #```{r me, out.width = "25%", echo = FALSE, fig.align="center"}
 
