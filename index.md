@@ -5,12 +5,14 @@
 + I am currently an ORISE research intern at the U.S. Environmental Protection Agency
   + I test chemicals for possible developmental neurotoxicity using a developmental zebrafish model
   + I am also using R to analyze and visualize cell-based in vitro data, zebrafish developmental toxicity data, transcriptomic data, and literature mining data to identify the mechanisms of chemicals with selective toxicity, or chemicals that produce developmental effects at concentrations lower than where cell stress is produced.
+
+linked_in_pic.jfif
   
-```{r me, out.width = "25%", echo = FALSE, fig.align="center"}
+#```{r me, out.width = "25%", echo = FALSE, fig.align="center"}
 
-knitr::include_graphics("C:/Users/Bridget/OneDrive/R_Scripts/linked_in_pic.jfif")
+#knitr::include_graphics("C:/Users/Bridget/OneDrive/R_Scripts/linked_in_pic.jfif")
 
-```
+#```
 
 Here's my [LinkedIn profile](www.linkedin.com/in/bridget-knapp-14582a195).
 
