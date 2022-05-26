@@ -11,7 +11,7 @@
 Fun facts about me:
 
 1. I'm a huge fan of theater
-  + My two favorite shows are *Wicked* and *The Phantom of the Opera*. I've seen them both on Broadway.
+  + My two favorite shows are *Wicked* and *The Phantom of the Opera*. I've seen both of them on Broadway.
 2. I play the clarinet in the [Durham Community Concert Band](http://www.durhamband.org/)
 3. I love my dog Henry! He's a four-year-old australian cattle dog mix
 
