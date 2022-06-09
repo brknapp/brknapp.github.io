@@ -1,15 +1,20 @@
 ---
-title: Programming Background"
+title: "Programming Background Info"
 ---
 
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(fig.path = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/images")
 
-```{r Z, include=FALSE, eval = FALSE}
+```
+
+```{r render, echo = FALSE, eval = FALSE}
 rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_Rmd/2022-06-08-second-blog-post.Rmd",
                   output_format = "github_document",
                   output_dir = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_posts/",
                   output_options = list(html_preview=FALSE) 
 )
 ```
+
 
 
 ## Thoughts About R
@@ -24,8 +29,8 @@ In the early days of my project, I found myself googling everything, from making
 
 Now, I am able to code much faster and I have more confidence. I think R is truly like a foreign language: you have to fully immerse yourself in it in order to learn it. Once I was using it every day for my job in early 2021, I really began to catch on to it. The learning curve is tough, but I think that may be true for most programming languages. The only other statistical computer program I’ve used is JMP, back in 2019, so I don’t remember much. What I do remember is that I used it to perform statistical analyses, like ANOVAs, and create graphs with its point-and-click setup. Naturally, I thought JMP was easier to use than R because it didn’t require code. I was used to point-and-click because I was comfortable with using excel. However, one major drawback to JMP is you can’t save your process, unlike R. Again, I used JMP back in 2019, so it may have changed. I like how you can document your thought process in R with code and comments. In addition, I believe that R can create nicer graphs than JMP. 
 
-## Example R Markdown Output
+## Example R Markdown Output:
 
-```{r example}
-plot(iris)
+```{r example,  eval = TRUE}
+plot(iris) #prints a plot about iris dataset 
 ```
