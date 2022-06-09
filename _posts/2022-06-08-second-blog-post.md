@@ -56,6 +56,6 @@ so it may have changed. I like how you can document your thought process
 in R with code and comments. In addition, I believe that R can create
 nicer graphs than JMP.
 
-## Example R Markdown Output
+## Example R Markdown Output: test
 
 \#`{r example} #plot(iris) #prints a plot about iris dataset (flowers) #`
