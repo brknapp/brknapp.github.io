@@ -59,7 +59,7 @@ nicer graphs than JMP.
 ## Example R Markdown Output:
 
 ``` r
-plot(iris) #prints a plot about iris dataset (flowers)
+plot(iris) #prints a plot about iris dataset (about flowers)
 ```
 
 ![](../images/example-1.png)<!-- -->
