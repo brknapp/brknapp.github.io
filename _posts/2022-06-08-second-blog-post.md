@@ -1,14 +1,6 @@
 Programming Background Info
 ================
 
-``` r
-rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_Rmd/2022-06-08-second-blog-post.Rmd",
-                  output_format = "github_document",
-                  output_dir = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_posts/",
-                  output_options = list(html_preview=FALSE) 
-)
-```
-
 ## Thoughts About R
 
 I was first introduced to R programming my sophomore year of undergrad
