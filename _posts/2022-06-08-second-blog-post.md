@@ -1,4 +1,4 @@
-Programming Background Info”
+Programming Background Info
 ================
 
 ## Thoughts About R
@@ -62,4 +62,4 @@ nicer graphs than JMP.
 plot(iris)
 ```
 
-![](C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_posts/2022-06-08-second-blog-post_files/figure-gfm/example-1.png)<!-- -->
+![](C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/imagesexample-1.png)<!-- -->
