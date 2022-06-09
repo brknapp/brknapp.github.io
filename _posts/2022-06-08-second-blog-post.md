@@ -62,4 +62,4 @@ nicer graphs than JMP.
 plot(iris) #prints a plot about iris dataset (flowers)
 ```
 
-![](C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/imagesexample-1.png)<!-- -->
+![](../images/example-1.png)<!-- -->
