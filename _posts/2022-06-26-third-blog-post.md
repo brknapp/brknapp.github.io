@@ -24,8 +24,8 @@ columns showing the average rating and a summary of the awards the movie
 may have won or was nominated for. The two new columns proved useful for
 my exploratory data analysis. Creating the average rating column was
 somewhat challenging because I had to accommodate for some of the movies
-in my data set that had an NA in the Metascore column. I also had to do
-a lot of parsing, especially in the Ratings.Value column because some
+in my data set that had an `NA` in the Metascore column. I also had to
+do a lot of parsing, especially in the Ratings.Value column because some
 values were fractions and others had a percent sign.
 
 Lastly, I made several tables and graphs summarizing both categorical
