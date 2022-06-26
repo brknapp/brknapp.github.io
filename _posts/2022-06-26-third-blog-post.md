@@ -1,7 +1,7 @@
 Third Blog Post: Project 1
 ================
 
-[GitHub Pages Repo](https://brknapp.github.io/Project_1/) [Regular
+[GitHub Pages Repo](https://brknapp.github.io/Project_1/) <br> [Regular
 Repo](https://github.com/brknapp/Project_1)
 
 For this project, I used the OMDb API to get data about movies. I
