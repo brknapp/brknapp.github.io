@@ -1,0 +1,22 @@
+---
+title: "Cool Stuff in R"
+---
+
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(fig.path = "../images/")
+#knitr::opts_chunk$set(fig.path = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/images")
+
+```
+
+```{r render, echo = FALSE, eval = FALSE}
+rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_Rmd/2022-06-30-third-blog-post.Rmd",
+                  output_format = "github_document",
+                  output_dir = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_posts/",
+                  output_options = list(html_preview=FALSE) 
+)
+```
+
+```{r example,  eval = TRUE}
+plot(iris) #prints a plot about iris dataset (50 flowers from 3 different species)
+```
