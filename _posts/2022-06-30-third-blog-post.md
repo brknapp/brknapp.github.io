@@ -15,8 +15,8 @@ ggpairs(iris, aes(colour = Species, alpha = 0.4))
 ![](../images/example-1.png)<!-- -->
 
 ``` r
-g <- ggplot(data = iris, aes(x = Species))
-g + geom_bar()
+g <- ggplot(iris, aes(x = Sepal.Length))
+g + geom_histogram(color = "blue", fill = "red", size = 2, binwidth = 3)
 ```
 
 ![](../images/example1-1.png)<!-- -->
