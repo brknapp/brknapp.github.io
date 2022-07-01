@@ -21,3 +21,13 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 library(GGally)
 ggpairs(iris, aes(colour = Species, alpha = 0.4))
 ```
+
+```{r example1, eval=TRUE}
+g <- ggplot(data = iris, aes(x = Species))
+g + geom_bar()
+
+
+
+
+```
+
