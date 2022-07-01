@@ -17,13 +17,9 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 )
 ```
 
-```{r example,  eval = TRUE}
+```{r example,  eval = TRUE,message=FALSE}
 library(GGally)
 ggpairs(iris, aes(colour = Species, alpha = 0.4))
 ```
 
-```{r example1, eval=TRUE}
-g <- ggplot(iris, aes(x = Sepal.Length))
-g + geom_histogram(color = "blue", fill = "red", size = 2, binwidth = 3)
-```
 
