@@ -18,5 +18,6 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 ```
 
 ```{r example,  eval = TRUE}
-plot(iris) #prints a plot about iris dataset (50 flowers from 3 different species)
+library(GGally)
+ggpairs(iris, aes(colour = Species, alpha = 0.4))
 ```
