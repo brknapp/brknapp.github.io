@@ -31,7 +31,7 @@ variable.
 
 The most difficult part of this project was understanding how to
 automate this process. I remember learning how to do this in RMarkdown
-in lecture by setting parameters and using the apply and render
+in lecture by setting parameters and using the `apply` and `render`
 functions. I was not sure how to apply this to GitHub. My partner showed
 me how to do this with a function.
 
