@@ -34,3 +34,12 @@ automate this process. I remember learning how to do this in RMarkdown
 in lecture by setting parameters and using the apply and render
 functions. I was not sure how to apply this to GitHub. My partner showed
 me how to do this with a function.
+
+# What are the Big Take-Aways from this Project?
+
+Every model has its upsides and downsides. For example, a tree model is
+more flexible than a simple linear regression model (SLR) because a tree
+model splits up the predictor region and averages all the values within
+each region for the prediction whereas an SLR fits one line for the
+entire data set. This gives a tree model more flexibility than an SLR,
+but it will increase the variance.
