@@ -39,7 +39,21 @@ me how to do this with a function.
 
 Every model has its upsides and downsides. For example, a tree model is
 more flexible than a simple linear regression model (SLR) because a tree
-model splits up the predictor region and averages all the values within
+model splits up the predictor space and averages all the values within
 each region for the prediction whereas an SLR fits one line for the
 entire data set. This gives a tree model more flexibility than an SLR,
-but it will increase the variance.
+but it may increase the variance.
+
+One way to decrease the variance of trees is to use the average
+prediction from many trees as our final prediction (e.g., random forest
+and boosted tree models). If the predictions are independent from one
+another, taking the average is a great way to reduce variation. But, if
+the data set has a strong predictor, then all the trees will probably
+use that predictor for their first split, resulting in trees that are
+highly correlated with one another. To fix this, we can use a random
+forest model because it uses a random subset of predictors in each tree
+instead of including every predictor in each tree. However, there is a
+risk of overfitting. One way to fix this is to use a boosted tree model,
+which trains each tree sequentially so that every tree that’s created is
+based off the previous one. However, boosted tree models are affected by
+outliers.
