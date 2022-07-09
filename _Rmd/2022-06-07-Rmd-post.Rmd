@@ -8,7 +8,7 @@ output: github_document
 ```{r step1, include=FALSE}
 rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_Rmd/2022-06-07-Rmd-post.Rmd",
                   output_format = "github_document",
-                  output_dir = "../_posts/",
+                  output_dir = "C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_posts/",
                   output_options = list(html_preview=FALSE) 
 )
 ```
@@ -24,8 +24,6 @@ I am currently an ORISE research intern at the U.S. Environmental Protection Age
 In the early days of my project, I found myself googling everything, from making simple data frames to how to make “for” loops. I also used the help page in R to learn more about the packages and functions I was using. It was very frustrating at times because it took me a long time to figure out how to do seemingly basic things. Slowly, I learned other strategies that helped me use R. For example, I use the browser() function to see how my loops in my function are running. Also, some of the data I work with is pretty large, so I break it down into smaller data frames so that I can get my code running well. 
 
 Now, I am able to code much faster and I have more confidence. I think R is truly like a foreign language: you have to fully immerse yourself in it in order to learn it. Once I was using it every day for my job in early 2021, I really began to catch on to it. The learning curve is tough, but I think that may be true for most programming languages. The only other statistical computer program I’ve used is JMP, back in 2019, so I don’t remember much. What I do remember is that I used it to perform statistical analyses, like ANOVAs, and create graphs with its point-and-click setup. Naturally, I thought JMP was easier to use than R because it didn’t require code. I was used to point-and-click because I was comfortable with using excel. However, one major drawback to JMP is you can’t save your process, unlike R. Again, I used JMP back in 2019, so it may have changed. I like how you can document your thought process in R with code and comments. In addition, I believe that R can create nicer graphs than JMP. 
-
-efwnewbew
 
 ## Example R Markdown Output
 
