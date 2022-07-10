@@ -1,11 +1,8 @@
 Project 2
 ================
 
-I need to add two links: username.github.io/repo-name site and the repo
-itself
-
-[GitHub Pages Repo](https://brknapp.github.io/Project_1/) <br> [Regular
-Repo](https://github.com/chsueh2/ST558-Project2)
+[GitHub Pages Repo](https://chsueh2.github.io/ST558-Project2/) <br>
+[Regular Repo](https://github.com/chsueh2/ST558-Project2)
 
 For Project 2, I practiced summarizing data with an exploratory data
 analysis (EDA), creating linear regression and ensemble tree-based
@@ -32,8 +29,9 @@ variable.
 The most difficult part of this project was understanding how to
 automate this process. I remember learning how to do this in RMarkdown
 in lecture by setting parameters and using the `apply` and `render`
-functions. I was not sure how to apply this to GitHub. My partner showed
-me how to do this with a function.
+functions. I was not sure how to apply this to GitHub. My partner helped
+me by showing me how to not “hard-code” everything so that the
+automation could work.
 
 # What are the Big Take-Aways from this Project?
 
