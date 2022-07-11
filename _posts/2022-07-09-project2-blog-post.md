@@ -18,7 +18,7 @@ categorical). At first, my EDA did not flow very well because it did not
 tell a story about the entire data set. I decided to start fresh and
 only investigate the response variable. After I made a few graphs, I
 then discovered that I could make multiple histograms with
-hist.data.frame(). I then began to visualize both the numeric and
+`hist.data.frame()`. I then began to visualize both the numeric and
 non-numeric variables. If I was able to do this part again, I would
 start by planning out my EDA and deciding which variables to visualize
 first. Then, I would prepare tables/graphs to explain each variable.
