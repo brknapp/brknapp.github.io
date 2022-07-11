@@ -15,23 +15,21 @@ start or which variables to focus on. I began by making graphs that just
 focused on one or two variables. I realized that I would need to do this
 analysis for all of the variables (including the numeric and
 categorical). At first, my EDA did not flow very well because it did not
-tell a story about the entire data set. My partner helped me set up a
-plan for my EDA, which helped it flow better (e.g., start with graphing
-the response variable and then graph the rest of the variables). I then
-learned how to make multiple graphs (one for each variable) at the same
-time so that we could compare them. If I was able to do this part again,
-I would start by planning out my EDA and deciding which variables to
-visualize first. Then, I would prepare tables/graphs to explain each
-variable.
+tell a story about the entire data set. I decided to start fresh and
+only investigate the response variable. After I made a few graphs, I
+then discovered that I could make multiple histograms with
+hist.data.frame(). I then began to visualize both the numeric and
+non-numeric variables. If I was able to do this part again, I would
+start by planning out my EDA and deciding which variables to visualize
+first. Then, I would prepare tables/graphs to explain each variable.
 
 # What was the Most Difficult Part?
 
 The most difficult part of this project was understanding how to
 automate this process. I remember learning how to do this in RMarkdown
 in lecture by setting parameters and using the `apply` and `render`
-functions. I was not sure how to apply this to GitHub. My partner helped
-me by showing me how to not “hard-code” everything so that the
-automation could work.
+functions. I learned that the trick is to not “hard-code” everything so
+that the automation could work.
 
 # What are the Big Take-Aways from this Project?
 
@@ -56,6 +54,7 @@ which trains each tree sequentially so that every tree that’s created is
 based off the previous one. However, boosted tree models are affected by
 outliers.
 
-You need to pick the best model based off of the data and the resulting
+You need to pick the best model based off the data and the resulting
 statistics, like the standard deviation of the prediction errors, or
-root mean square error.
+root mean square error. The repository we made can compare multiple
+models for several data sets to find the best one for each.
