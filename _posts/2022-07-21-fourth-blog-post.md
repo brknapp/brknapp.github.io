@@ -6,8 +6,8 @@ Fourth Blog Post
 Out of all the methods we have learned, I found regression trees to be
 the most interesting because they produce graphs that are easy to read.
 In general, tree-based methods split the predictor space into regions
-and then formulate predictions based on those regions. The model
-determines each split by using recursive binary splitting, an algorithm
+and then formulate predictions based on those regions. Regression trees
+determine each split by using recursive binary splitting, an algorithm
 that takes every possible value for each predictor, finds the residual
 sum of squares (RSS), and minimizes the RSS based off the mean value for
 each possible split it could do. Regression trees predict a continuous
@@ -57,6 +57,11 @@ str(wine_data)
     ##  $ Hue                         : num  1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 1.25 ...
     ##  $ OD280_OD315_of_diluted_wines: num  3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 3.17 ...
     ##  $ Proline                     : int  1050 1185 1480 735 1450 1290 1295 1045 1045 1510 ...
+
+According to the tree plot below, it looks like our first split takes
+the “Color_intensity” and splits it into two groups: one group with
+Color_intensity values \< 3.325 and another with Color_intensity values
+\> 3.325.
 
 ``` r
 set.seed(dim(wine_data)[1])
