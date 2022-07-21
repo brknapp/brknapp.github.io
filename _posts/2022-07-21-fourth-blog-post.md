@@ -1,6 +1,24 @@
 Fourth Blog Post
 ================
 
+# Modeling
+
+Out of all the methods we have learned, I found regression trees to be
+the most interesting because they produce graphs that are easy to read.
+In general, tree-based methods split the predictor space into regions
+and then formulate predictions based on those regions. The model
+determines each split by using recursive binary splitting, an algorithm
+that takes every possible value for each predictor, finds the residual
+sum of squares (RSS), and minimizes the RSS based off the mean value for
+each possible split it could do. Regression trees predict a continuous
+response by using the mean of all the observations in a given predictor
+space region.
+
+I grabbed the wine data set from the [Machine Learning
+Repository](https://archive.ics.uci.edu/ml/index.php) and made a
+regression tree to see if I could predict the amount of alcohol in each
+wine based on the variables given.
+
 ``` r
 head(wine_data)
 ```
@@ -53,6 +71,8 @@ plot(treeFit); text(treeFit, pretty = 0, cex = 0.6)
 ![](../images/4_55_7_21_2022-1.png)<!-- -->
 
 ``` r
+#cross-validation:
+#$dev is the cross-validation error (we want to minimize this)
 cvTree <- cv.tree(treeFit); cvTree
 ```
 
@@ -70,3 +90,13 @@ cvTree <- cv.tree(treeFit); cvTree
     ## 
     ## attr(,"class")
     ## [1] "prune"         "tree.sequence"
+
+``` r
+#predict:
+pred <- predict(treeFit, newdata = dplyr::select(wine_dataTest, -Alcohol))
+#pred <- predict(treeFit, newdata = test$Alcohol)
+#Calculate Root MSE
+sqrt(mean((pred-wine_dataTest$Alcohol)^2))
+```
+
+    ## [1] 0.5307557
