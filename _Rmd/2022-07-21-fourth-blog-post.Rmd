@@ -18,7 +18,46 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 ```
 
 ```{r 4_32_7_21_2022}
-plot(iris)
+library(tree)
+library(readr)
+library(tidyverse)
+library(class)
+library(caret)
+library(rpart)
+library(rpart.plot)
+
+wine_data<-read.csv("C://Users//Bridget//OneDrive//R_Scripts//repos//brknapp.github.io//wine.data")
+
+colnames(wine_data)<-c("category",
+                       "Alcohol",
+                       "Malic_acid",
+                       "Ash",
+                       "Alcalinity_of_ash",
+                       "Magnesium",
+                       "Total_phenols",
+                       "Flavanoids",
+                       "Nonflavanoid_phenols",
+                       "Proanthocyanins",
+                       "Color_intensity",
+                       "Hue",
+                       "OD280_OD315_of_diluted_wines",
+                       "Proline") 
+set.seed(dim(wine_data)[1])
+train <- sample(1:nrow(wine_data), size = nrow(wine_data)*0.8)
+test <- dplyr::setdiff(1:nrow(wine_data), train)
+wine_dataTrain <- wine_data[train, ]
+wine_dataTest <- wine_data[test, ]
+treeFit <- tree(Alcohol ~ ., data = wine_dataTrain)
+plot(treeFit); text(treeFit)
+cvTree <- cv.tree(treeFit); cvTree
+  
+  
+  
+  
+  
+  
+  
+
 
 
 ```
