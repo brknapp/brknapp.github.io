@@ -94,7 +94,6 @@ cvTree <- cv.tree(treeFit); cvTree
 ``` r
 #predict:
 pred <- predict(treeFit, newdata = dplyr::select(wine_dataTest, -Alcohol))
-#pred <- predict(treeFit, newdata = test$Alcohol)
 #Calculate Root MSE
 sqrt(mean((pred-wine_dataTest$Alcohol)^2))
 ```
