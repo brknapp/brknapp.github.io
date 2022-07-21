@@ -17,7 +17,7 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 )
 ```
 
-```{r 4_32_7_21_2022}
+```{r 4_32_7_21_2022,echo=FALSE,warning=FALSE,message=FALSE}
 library(tree)
 library(readr)
 library(tidyverse)
@@ -25,7 +25,9 @@ library(class)
 library(caret)
 library(rpart)
 library(rpart.plot)
+```
 
+```{r 4_54_7_21_2022,echo=FALSE}
 wine_data<-read.csv("C://Users//Bridget//OneDrive//R_Scripts//repos//brknapp.github.io//wine.data")
 
 colnames(wine_data)<-c("category",
@@ -42,22 +44,20 @@ colnames(wine_data)<-c("category",
                        "Hue",
                        "OD280_OD315_of_diluted_wines",
                        "Proline") 
+```
+
+```{r 4_56_7_21_2022}
+head(wine_data)
+str(wine_data)
+```
+
+```{r 4_55_7_21_2022}
 set.seed(dim(wine_data)[1])
 train <- sample(1:nrow(wine_data), size = nrow(wine_data)*0.8)
 test <- dplyr::setdiff(1:nrow(wine_data), train)
 wine_dataTrain <- wine_data[train, ]
 wine_dataTest <- wine_data[test, ]
 treeFit <- tree(Alcohol ~ ., data = wine_dataTrain)
-plot(treeFit); text(treeFit)
+plot(treeFit); text(treeFit, pretty = 0, cex = 0.6)
 cvTree <- cv.tree(treeFit); cvTree
-  
-  
-  
-  
-  
-  
-  
-
-
-
 ```
