@@ -21,7 +21,7 @@ rmarkdown::render("C:/Users/Bridget/OneDrive/R_Scripts/repos/brknapp.github.io/_
 
 The main goals of this course were to gather, format, combine, summarize, and analyze data and communicate our findings using R. I believe that R is a good programming language for data science because it’s flexible enough to handle many kinds of data, allows for collaboration (e.g., with GitHub), its free and open source, and allows the user to create outputs (e.g., pdfs or interactive apps). It also has a community that’s eager to share their findings and help each other out (e.g., Stack Overflow). One drawback is that the learning curve is tough to get through. Even though I have been coding for about a year and a half now, I still get stuck. Luckily, I have learned many strategies to work through challenges and fix my code. I will absolutely continue to use R going forward. During this course, I have learned new ways to use R and I have applied them to my job at the EPA.
 
-# What will I do Differently Now that I’ve Taken this Course?
+# What will I do Differently Now that I’ve Taken this Course
 
 I am going to start outputting my results using RMarkdown because it integrates text with code. I like how these outputs are nice to look at and are customizable for certain audiences (people who know code and people who do not). I also like using ggplot2 to make graphs that are easy to read and understand. I also like using R projects to organize my work.
 

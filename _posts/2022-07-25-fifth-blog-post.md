@@ -17,7 +17,7 @@ work through challenges and fix my code. I will absolutely continue to
 use R going forward. During this course, I have learned new ways to use
 R and I have applied them to my job at the EPA.
 
-# What will I do Differently Now that I’ve Taken this Course?
+# What will I do Differently Now that I’ve Taken this Course
 
 I am going to start outputting my results using RMarkdown because it
 integrates text with code. I like how these outputs are nice to look at
