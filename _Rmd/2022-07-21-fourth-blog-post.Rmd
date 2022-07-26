@@ -67,7 +67,26 @@ train <- sample(1:nrow(wine_data), size = nrow(wine_data)*0.8)
 test <- dplyr::setdiff(1:nrow(wine_data), train)
 wine_dataTrain <- wine_data[train, ]
 wine_dataTest <- wine_data[test, ]
-treeFit <- tree(Alcohol ~ ., data = wine_dataTrain)
+
+
+trctrl <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
+dtree_fit <- train(Alcohol ~ ., data = wine_dataTrain, method = "rpart",
+                   trControl = trctrl,
+                   tuneGrid = data.frame(cp=seq(0,0.1,0.01)))
+pred <- predict(dtree_fit, newdata = dplyr::select(wine_dataTest, -Alcohol))
+sqrt(mean((pred-wine_dataTest$Alcohol)^2))
+
+#Metrics package
+
+
+
+
+
+#dtree_fit$finalModel
+
+
+
+#treeFit <- tree(Alcohol ~ ., data = wine_dataTrain)
 plot(treeFit); text(treeFit, pretty = 0, cex = 0.6)
 ```
 
